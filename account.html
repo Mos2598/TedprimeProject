@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <title>Account</title>
+</head>
+<body>
+    <a href="index.html"><button class="btn5 mx-auto">Go Back Home</button></a>
+    <br>
+   <div class="container">
+        <div class="upper">
+            <input type="text" placeholder="      Search products,brands,categories" class="text-input">                  
+            <div class="upbut">
+                <button class="btn-outline-warning btn-lg btn1 mx-1">Search</button>
+                <a href="account.html"><button class="bg-light btn-outline-warning btn1 btn-lg">Account</button> </a><a href="help.html"><button class="bg-light btn-outline-warning btn1 btn-lg">Help</button> </a>
+            </div>
+        </div>
+            <div class="account-log">
+                <div class="login">
+                    <form id="form" name="myForm" method="post">
+                          <center><h5>Login</h5></center>
+                        
+                            <center><label>Email</label><br></center>
+                            <center><input type="text" class="email m-2" id="Email" placeholder="Email"> <div id="div2"></div> <br></center>
+                        
+                            <center><label>Password</label><br></center>
+                            <center> <input type="password"  id="password" class="password m-2" placeholder="....."> <div id="div3"></div><br></center>
+                        
+                            <center><input type="checkbox" class="m-3"><label>Remember Me</label>
+                            
+                            <a href="#" class="m-2 text-decoration-none">Forgot Your Password?</a> </center>
+                             <a href="#" class="text-decoration-none" ><button class="btn2 mt-2 zoom" onclick="formValidation()">LOGIN</button> </a> <br> 
+                            <a href="#" class="text-decoration-none"><button class="btn3 zoom">LOGIN WITH FACEBOOK</button></a> <br>
+                    </form>
+                    
+                
+                </div>  
+                <div class="signup">
+                    <center><h5>Create your account</h5></center>
+                    <center><p class="m-3 p-xl-4 mb-xxl-5 para3" >Create your customer account in just a few clicks! You can register either using your e-mail address or through your Facebook account.</p></center>
+                    <a href="#" class="text-decoration-none"><button class="btn2 mt-xxl-5 zoom">CREATE AN ACCOUNT VIA EMAIL</button></a><br>
+                    <a href="#" class="text-decoration-none"><button class="btn3 zoom">REGISTER WITH FACEBOOK</button></a> <br>
+                </div>   
+          </div>
+
+   </div>
+   <br>
+   <footer>
+    <div class="container-fluid bg-dark opacity-75">
+        
+            <center><p class="text-light">New? Subscribe To Get The Latest Offers</p></center>
+            <center><input type="text" class="inputs" id="email" placeholder="Enter Email Address" required></center> 
+            <center><span id="p4"></span> </center>
+            <center><span id="p5"></span> </center>
+            <center><button class="btn4 my-3" onclick="formValidationTwo()">Subscribe</button></center>
+        <div class="foot text-light">
+            <div class="final">
+                <p>LET US HELP YOU</p>
+               <li>Help Center</li> 
+                <li>How to shop?</li>
+                <li>Delivery options and timelines</li>
+                <li>How to return a product?</li>
+                <li>Corporate and bulk purchases</li>
+                <li>Report a Product</li>
+                <li>Ship your package anywhere in Nigeria</li>
+                <li>Dispute Resolution Policy</li>
+           </div>
+            <div class="final">
+                <p>ABOUT</p>
+                <li>About us</li>
+                <li>Terms and Conditions</li>
+                <li>Privacy and Cookie Notice</li>
+                <li>Flash Sales</li>
+            </div>
+            <div class="final">
+             <p>INTERNATIONAL</p>
+                <li>Algeria</li>
+                <li>Egypt</li>
+                <li>Ghana</li>
+                <li>Ivory Coast</li>
+                <li>Kenya</li>
+                <li>Morocco</li>
+           </div>
+             <div class="final">
+                <p>MAKE MONEY</p>
+                <li>Sell</li>
+                <li>Become a Sales Consultant</li>
+                <li>Become a Vendor Service Provider</li>
+                <li>Become a Logistics Service Partner</li>
+              </div>
+      </div>
+    </div>
+ </footer>
+   <script src="js/script.js"></script>
+  <script src="Assets/Vendor/bootstrap/js/bootstrap.bundle.js"></script> 
+</body>
+</html>
